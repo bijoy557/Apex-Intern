@@ -1,0 +1,34 @@
+1 Linux Cheat Sheets
+
+*Navigation Commands
+
+cd → change directory
+
+ls → list files
+
+pwd → show current path
+
+
+*File Permissions
+
+chmod → change permissions (rwx).
+
+chown → change file owner.
+
+
+*Package Management
+
+apt install <pkg> → install software
+
+dpkg -i <file.deb> → install from .deb package
+
+
+*Networking Commands
+
+ifconfig → show IP info
+
+ping <host> → test connection
+
+netstat → check open ports/connections
+
+traceroute <host> → show path to host

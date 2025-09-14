@@ -1,0 +1,122 @@
+APEXPLANET INTERN CYBERSECURITY TASK 1 NOTES
+
+
+CIA Triad
+
+Confidentiality → Keep data secret (encryption, passwords).
+
+Integrity → Data should not be changed without permission (hashing, checksums).
+
+Availability → Data/services must be available when needed (uptime, backups).
+
+
+Threat Types
+
+Phishing → Fake messages to steal info.
+
+Malware → Malicious software (virus, trojan, worm).
+
+DDoS → Overloading a server to make it unavailable.
+
+SQL Injection → Inserting malicious queries in databases.
+
+Brute Force → Trying many passwords until success.
+
+Ransomware → Locks/encrypts files, demands money.
+
+
+Attack Vectors
+
+Social Engineering → Tricking people (phishing, fake calls).
+
+Wireless Attacks → Hacking Wi-Fi (evil twin, WPA cracking).
+
+Insider Threats → Employees misusing access.
+
+
+
+2. Lab Environment Setup
+
+VirtualBox / VMware → Tools to create virtual machines.
+
+Kali Linux → Attacker machine (used for hacking tools).
+
+Metasploitable2 / DVWA → Target machines (intentionally vulnerable).
+
+Private Lab Network → Use Host-Only Adapter so hacking stays inside lab.
+
+
+
+3. Networking Basics
+
+OSI Model (7 Layers)
+
+1. Physical (cables, signals)
+
+
+2. Data Link (MAC, switches)
+
+
+3. Network (IP, routers)
+
+
+4. Transport (TCP/UDP)
+
+
+5. Session (manages sessions)
+
+
+6. Presentation (encryption, compression)
+
+
+7. Application (HTTP, FTP, DNS)
+
+
+
+TCP/IP Model (4 Layers)
+
+Application → HTTP, FTP, DNS
+
+Transport → TCP/UDP
+
+Internet → IP addressing
+
+Network Access → Ethernet, Wi-Fi
+
+
+DNS → Converts domain name → IP address.
+
+HTTP/HTTPS → Web communication (HTTPS is secure with SSL/TLS).
+
+IP Addressing → Unique ID of devices (IPv4 / IPv6).
+
+Subnetting → Dividing network into smaller parts.
+
+NAT (Network Address Translation) → Converts private IP to public IP for internet.
+
+
+
+4. Cryptography Basics
+
+Symmetric Encryption → Same key for encrypt/decrypt (AES, DES).
+
+Asymmetric Encryption → Public & private key pair (RSA).
+
+Hashing → One-way encryption (MD5, SHA256).
+
+Digital Certificates & SSL/TLS → Used in HTTPS for secure communication.
+
+OpenSSL → Tool for encrypting/decrypting messages.
+
+
+
+
+5. Tool Familiarization
+
+Wireshark → Capture & analyze network packets.
+
+Nmap → Network scanning (find open ports, services).
+
+Burp Suite → Web application testing (intercept requests).
+
+Netcat → Network debugging, create connections, send/receive data.
